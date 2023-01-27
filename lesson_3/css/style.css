@@ -1,0 +1,28 @@
+@import url("reset.css");
+
+.block-1{
+   color: brown;
+
+}
+.block-2 {
+   color: rgb(26, 159, 32);
+
+}
+.block-3 p {
+   color: rgb(213, 223, 31);
+}
+#list{
+   color: rgb(43, 58, 189);
+}
+h2{
+   color: black;
+}
+a{
+   color: blueviolet;
+}
+li{
+   color: rgba(165, 42, 95, 0.34);
+}
+[class*="__container"] {
+   color: rgb(44, 174, 206);
+}
