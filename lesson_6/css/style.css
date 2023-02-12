@@ -1,0 +1,219 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;1,100&family=Titillium+Web:ital,wght@0,200;0,300;1,200&display=swap');
+@font-face {
+font-family: 'Poppins';
+src: url('../fonts/Poppins-Bold.woff2') format('woff2'),
+     url('../fonts/Poppins-Bold.woff') format('woff');
+font-weight: 700;
+font-display: swap;
+}
+
+@font-face {
+   font-family: 'Poppins';
+   src: url('../fonts/Poppins-Light.woff2') format('woff2'),
+   url('../fonts/Poppins-Light.woff') format('woff');
+   font-weight: 300;
+   font-display: swap;
+}
+
+body {
+   
+   font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* ....................................................................................... */
+
+.block-1 {
+   border: 5px solid rgb(0, 255, 98);
+   max-width:1470px;
+   margin: 0px auto;
+   
+}
+.block-1__container {
+   border-top: 5px solid #000;
+}
+.block-1__title {
+   border-bottom: 5px solid rgb(224, 9, 9);
+   margin: 0px auto;
+   max-width: 816px;
+   font-weight: 700;
+   font-size: 25px;
+   Line-height:1.6;
+   margin-bottom: 40px;
+
+
+
+}
+
+
+
+.block-1__text {
+   border-left: 10px solid rgb(67, 38, 38);
+   border-right: 100px solid rgb(67, 38, 38);
+    margin: 0px auto;
+   max-width: 816px;
+   Line-height:1.78;
+   font-size: 14px;
+   margin-bottom: 80px;
+}
+.block-1__image {
+   outline: 10px solid rgb(64, 0, 255);
+   max-width: 1240px;
+   margin: 0px auto;
+   margin-bottom: 80px;
+}
+#block-1 {
+   max-width: 100%;
+   
+}
+/* ....................................................................................... */
+.block-2 {
+  
+ }
+.block-2__container {
+  
+}
+.block-2__title {
+   margin: 0px auto;
+   max-width: 816px;
+   font-weight: 700;
+   font-size: 25px;
+   Line-height:1.6;
+  
+}
+
+.block-2__text {
+   margin: 0px auto;
+   max-width: 816px;
+   font-weight: 300;
+   Line-height:1.78;
+   font-size: 14px;
+   margin-bottom: 80px;
+}
+
+#block-2{
+  padding-right: 30px;
+   max-width: 100%;
+   
+}
+#block-3{
+   max-width: 100%;
+   
+}
+.block-2__image {
+   
+   margin: 0px auto;
+   max-width: 1240px;
+ font-size: 0px;
+ margin-bottom: 40px;
+}
+/* ....................................................................................... */
+.block-3 {
+   
+}
+.block-3__container {
+  
+}
+.block-3__text {
+   margin: 0px auto;
+   max-width: 816px;
+   font-weight: 300;
+   Line-height:1.78;
+   font-size: 14px;  
+   margin-bottom: 100px;
+   
+}
+main{
+   padding-top: 40px;
+}
+
+ p{
+padding-bottom: 30px;
+
+}
+
+/* *********************** 2 макет******************************** */
+.lesson_6 {
+   
+   max-width: 1440px;
+   
+}
+.article-image {
+   margin: 0px auto;
+   margin-bottom: 30px;
+   
+}
+.article-text {
+   border-top: 10px solid #000;
+	border-right: 5px dashed red;
+	border-bottom: 5px solid #000;
+	border-left: 5px dashed green;
+   outline: 25px solid red;
+   Line-height:1.78;
+   font-weight: 300;
+   font-size: 14px;
+  color: #6C757D;
+   max-width: 816px;
+   margin: 0 auto;
+   margin-bottom: 100px;
+}
+.article-title {
+   border-radius: 20%;
+   box-shadow: 0px 0px 20px 0px #000;
+   border: 5px solid #000;
+   Line-height:1.68;
+   font-weight: 700;
+   font-size: 25px;
+   color: #212529;
+   max-width: 816px;
+   margin: 0 auto;
+   margin-bottom: 100px;
+}
+.image_article {
+   max-width: 1240px;
+   box-shadow: inset 0px 0px 20px 0px #000;
+   font-size: 0px;
+   margin: 0 auto;
+   margin-bottom: 100px;
+}
+
+#center{
+    max-width: 100%;
+}
+#hanger{
+   padding-right: 30px;
+   opacity: 0.5;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
