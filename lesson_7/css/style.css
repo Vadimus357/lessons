@@ -1,0 +1,194 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
+@font-face {
+font-family: 'Inter';
+src: url('../fonts/Inter-Medium.woff2') format('woff2'),
+     url('../fonts/Inter-Medium.woff') format('woff');
+font-weight: 500;
+font-display: swap;
+}
+
+@font-face {
+   font-family: 'Inter';
+   src: url('../fonts/Inter-SemiBold.woff2') format('woff2'),
+   url('../fonts/Inter-SemiBold.woff') format('woff');
+   font-weight: 600;
+   font-display: swap;
+}
+@font-face {
+   font-family: 'Inter';
+   src: url('../fonts/Inter-Bold.woff2') format('woff2'),
+   url('../fonts/Inter-Bold.woff') format('woff');
+   font-weight: 700;
+   font-display: swap;
+}
+
+body {
+   font-family: 'Inter', sans-serif;
+   
+}
+
+
+
+/* ....................................................................................... */
+
+h2{
+padding-top:330px;
+font-weight: 300;
+font-size: 12px;
+line-height: 1.6;
+color: #E5E5E5;
+margin-bottom: 15px;
+}
+h3{
+max-width: 605px;
+margin-bottom: 15px;
+font-weight: 700;
+font-size: 25px;
+line-height: 1.6;
+color: #F8F9FA;
+
+}
+h4{
+max-width: 499px;
+font-weight: 300;
+font-size: 12px;
+line-height: 1.6;
+color: #E5E5E5;
+
+
+}
+[class*="__container"]{
+   max-width: 1270px;
+   padding-left: 15px;
+   padding-right: 15px;
+   margin: 0 auto;
+
+}
+.block_background {
+   max-width: 100%;
+   background-image: url(../img/1.png);
+   height: 600px;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+.block_background__container {
+}
+.block_background__text {
+}
+.block-list {
+   background: rgb(161,230,131);
+background: linear-gradient(90deg, rgba(161,230,131,1) 0%, rgba(222,223,224,1) 14%, rgba(33,65,158,1) 26%, rgba(75,91,142,1) 41%, rgba(124,125,124,1) 68%, rgba(193,200,191,1) 79%, rgba(194,194,194,1) 89%);
+   max-width: 100%;
+   margin-bottom: 100px;
+  
+}
+.block-list__container {
+}
+.block_list__li li {
+   height: 20px;
+   margin-top: 18px;
+   font-size: 15px;
+   line-height: 1;
+   font-weight: 700;
+}
+.li-1 li {
+   padding-left:20px;
+   background-image: url(../img/2.png);
+   background-repeat: no-repeat;
+}
+.li-2 li {
+   padding-left:30px;
+   background-image: url(../img/3.png);
+   background-repeat: no-repeat;
+}
+.li-3 li {
+   padding-left:30px;
+   background-image: url(../img/4.png);
+   background-repeat: no-repeat;
+}
+.li-4 li {
+   padding-left:30px;
+   background-image: url(../img/5.png);
+   background-repeat: no-repeat;
+}
+.li-5 li {
+   padding-left:30px;
+   background-image: url(../img/6.png);
+   background-repeat: no-repeat;
+}
+.li-6 li {
+   padding-left:30px;
+   background-image: url(../img/7.png);
+   background-repeat: no-repeat;
+}
+.block-speaker {
+  
+   max-width: 100%;
+   background-color: rgb(182, 195, 206);
+
+}
+.block-speaker__container {
+   padding-bottom: 50px;
+   background-image: url(../img/Group\ 1000004061.png);
+   
+   background-repeat: no-repeat;
+   background-position: right 0;
+   margin: 0 auto;
+   max-width: 1400px;
+   padding-left: 15px;
+   padding-right: 15px;
+
+}
+
+h5{
+   margin-top:64px;
+   max-width: 153px;
+   color: #3056D3;
+   font-weight: 600px;
+   font-size: 18px;
+   line-height: 1.3;
+   margin-bottom: 13px;
+
+}
+h6{
+   max-width: 470px;
+   color:#212B36;
+   font-weight: 700px;
+   font-size: 36px;
+   line-height: 1.25;
+   margin-bottom: 15px;
+
+}
+p{
+   font-weight: 500;
+   max-width: 580px;
+   margin-bottom: 15px;
+
+}
+.block-speaker__text{
+   padding-left: 135px;
+   font-size: 16px;
+   line-height: 1.5;
+   display: inline-block;
+   vertical-align: middle;
+   
+}
+.speaker-position {
+   padding-left: 176px;
+   display: inline-block;
+   vertical-align:middle;
+}
+.group_position {
+  margin-left: 630px;
+}
+.button {
+   color: #ffffff;
+   background-color: #3056D3;;
+   width: 139px;
+   height: 44px;
+   border-radius: 30px;
+   padding-top: 10px;
+   padding-left: 30px;
+}
