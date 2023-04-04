@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+	<meta charset="UTF-8">
+
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<title>lesson_16</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header></header>
+		<main>
+			<div class="block-portfolio">
+				<div class="block-portfolio__container">
+					<div class="block-portfolio__title">Shipping Address</div>
+					<form method="get" enctype="multipart/form-data" action="#" class=" block-portfolio__form block-form">
+						<div class="block-form__input block-input ">
+							<div class="block-input__column">
+								<label class="block-input__label" for="email">Email Address *</label>
+								<input id="email" required class="block-input__form" autocomplete="off"
+									placeholder="roni_cost@example.com" type="email">
+							</div>
+							<div class="block-input__column">
+								<label class="block-input__label" for="Password">Password</label>
+								<input id="Password" required class="block-input__form" autocomplete="off"
+									placeholder="******************" type="email">
+							</div>
+							<div class="block-input__column">
+								<label class="block-input__label" for="zip">Zip/Postal Code</label>
+								<input id="zip" required class="block-input__form" autocomplete="off" type="email">
+							</div>
+						</div>
+						<div class="block-portfolio__subtitle">You already have an account with us. Sign in or continue as
+							guest.</div>
+						<div class="block-portfolio__button block-button">
+							<button class="block-button__button">login</button>
+							<div class="block-button__line"><a class="block-button__link" href="#">Forgot Your
+									Password?</a>
+							</div>
+						</div>
+					</form>
+					<div class="block-portfolio__area">
+						<form method="get" enctype="multipart/form-data" action="#" class=" block-portfolio__form block-form">
+							<div class="block-form__input block-input ">
+								<div class="block-input__column">
+									<label class="block-input__label" for="first">First Name *</label>
+									<input id="first*" required class="block-input__form" autocomplete="off"
+										placeholder="roni_cost@example.com" type="email">
+								</div>
+								<div class="block-input__column">
+									<label class="block-input__label" for="last">Last Name *</label>
+									<input id="last" required class="block-input__form" autocomplete="off"
+										placeholder="******************" type="text">
+								</div>
+								<div class="block-input__column">
+									<label class="block-input__label" for="company">Company</label>
+									<input id="company" required class="block-input__form" autocomplete="off" type="text">
+								</div>
+								<div class="block-input__column">
+									<label class="block-input__label" for="street">Street Address *</label>
+									<input id="street" required class="block-input__form" autocomplete="off" type="text">
+								</div>
+								<div class="block-input__column">
+									<label class="block-input__label"></label>
+									<input required class="block-input__form" autocomplete="off" type="text">
+								</div>
+								<div class="block-input__column">
+									<label class="block-input__label"></label>
+									<input required class="block-input__form" autocomplete="off" type="text">
+								</div>
+								<div class="block-input__column">
+									<label class="block-input__label" for="Country">Country *</label>
+									<input id="Country" required class="block-input__form" autocomplete="off" type="text">
+								</div>
+								<div class="block-input__column">
+									<label class="block-input__label" for="State">State/Province *</label>
+									<select class="block-input__select">
+										<option value="1">Please select a region, state or province</option>
+										<option value="2">Германия</option>
+										<option value="3">Молдова</option>
+										<option value="4">Польща</option>
+										<option value="5">Грузия</option>
+									</select>
+								</div>
+							</div>
+							<div class=" block-portfolio__price block-price">
+									<div class="block-price__radio radio">
+										<div class="radio__item">
+											<input class="radio__input" id="price" required value="$5.00" name="price"
+												type="radio">
+											<label class="radio__label" for="price">$5.00</label>
+											<h3>Fixed</h3>
+											<h3>Flat Rate</h3>
+										</div>
+										<div class="radio__item">
+											<input class="radio__input" id="price-02" required name="price" value="$10.00"
+												type="radio">
+											<label class="radio__label" for="price-02">$10.00</label>
+											<h3>Table Rate</h3>
+											<h3>Best Way</h3>
+										</div>
+									</div>
+									<div class="block-price__icon block-button ">
+										<button type="submit" class="block-button__button">next</button>
+										<button type="submit"
+											class="block-button__button block-button__button_transparent">Back</button>
+									</div>
+								</div>
+						</form>
+					</div>
+					<form action="#" enctype="multipart/form-data" method="get"
+						class="block-portfolio__checkout checkout-block">
+						<div class="checkout-block__header">
+							<div class="checkout-block__title">Checkout</div>
+							<div class="checkout-subtitle">There are 3 products in your cart</div>
+						</div>
+						<div class="checkout-block__payment payment-block">
+							<div class="payment-block__title"></div>
+						</div>
+						<div class="checkout-block__colums colums-block">
+							<div class="colums-block__column">
+								<input required class="colums-block__form" autocomplete="off"
+									placeholder="First name*" type="text">
+							</div>
+							<div class="colums-block__column">
+								<input required class="colums-block__form" autocomplete="off"
+									placeholder="Last name*" type="text">
+							</div>
+							<div class="colums-block__column">
+								<input required class="colums-block__form" autocomplete="off"
+									placeholder="Address*" type="text">
+							</div>
+							<div class="colums-block__column">
+								<input required class="colums-block__form" autocomplete="off"
+									placeholder="Address line 2" type="text">
+							</div>
+							<div class="colums-block__column">
+								<select class="colums-block__form">
+									<option value="1">Country*</option>
+									<option value="2">Германия</option>
+									<option value="3">Молдова</option>
+									<option value="4">Польща</option>
+									<option value="5">Грузия</option>
+								</select>
+							</div>
+							<div class="colums-block__column">
+								<input required class="colums-block__form" autocomplete="off"
+									placeholder="City/Town*" type="text">
+							</div>
+							<div class="colums-block__column">
+								<input required class="colums-block__form" autocomplete="off"
+									placeholder="Postcode / ZIP*" type="text">
+							</div>
+							<div class="colums-block__column">
+								<input required class="colums-block__form" autocomplete="off"
+									placeholder="Phone*" type="tel">
+							</div>
+							<div class="colums-block__column">
+								<input required class="colums-block__form" autocomplete="off"
+									placeholder="Postcode / ZIP*" type="text">
+							</div>
+							<div class="colums-block__column">
+								<input required class="colums-block__form" autocomplete="off"
+									placeholder="Postcode / ZIP*" type="text">
+							</div>
+							
+						</div>
+						<div class="checkout-block__checkbox">
+							<div class="block-form__line">
+								<input id="account" class=" block-form__input__check " required name="tab" type="checkbox">
+								<label class="block-form__label" for="account">Create Account</label>
+							</div>
+							<div class="block-form__line">
+								<input id="adress" checked class="block-form__input__check" required name="tab" type="checkbox">
+								<label class="block-form__label" for="adress">Ship to a different address?</label>
+							</div>
+						</div>
+						<div class="checkout-block__title">Apply Coupon to get discount!</div>
+						<div class="checkout-block__button block-coupon">
+							<div class="block-coupon__icon">
+								<div class="block-coupon__line"><input autocomplete="off" name="coupon" placeholder="Coupon"
+										value="" type="text" class="block-coupon__input">
+								</div>
+							</div>
+							<h2><button type="submit" class="block-coupon__button">Apply Code</button></h2>
+						</div>
+					</form>
+				</div>
+			</div>
+		</main>
+		<footer></footer>
+	</div>
+</body>
+
+</html>
